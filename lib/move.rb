@@ -13,9 +13,9 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def move(board, position, charx="X")
+def move(board, position, char="X")
   puts position
   puts nput_to_index(position)
   puts char
-  board[position] = charx
+  board[position] = char
 end
