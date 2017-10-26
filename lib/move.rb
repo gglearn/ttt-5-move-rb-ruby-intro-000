@@ -18,4 +18,5 @@ def move(board, position, char="X")
   puts nput_to_index(position)
   puts char
   board[position] = char
+  board
 end
