@@ -14,5 +14,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def move(board, position, char="X")
+  puts position
+  puts char
   #board[input_to_index] = char
 end
